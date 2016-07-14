@@ -52,7 +52,7 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/mconnect.desktop
 %{_datadir}/applications/*.desktop
 
 %changelog
-* Tue Jul 14 2016 Maciek Borzęcki <maciek.borzecki@gmail.com> - 0.2.1-1.20160714git23e1acf
+* Thu Jul 14 2016 Maciek Borzęcki <maciek.borzecki@gmail.com> - 0.2.1-1.20160714git23e1acf
 - Update to v0.2.1
 
 * Sun Jan 25 2015 Maciek Borzęcki <maciek.borzecki@gmail.com> - 0.2-4.20150125gite4d57ef
