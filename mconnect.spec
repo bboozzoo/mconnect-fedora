@@ -1,11 +1,11 @@
 # git SHA1 of usable master
-%global commit 23e1acf1d162a6a011d04621ad1ee84d27891f82
+%global commit 2210f1fd07c01b206d61404faa0abae01457cd58
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global owner bboozzoo
 
 Name:           mconnect
 Version:        0.2.1
-Release:        1.20160714git%{shortcommit}%{?dist}
+Release:        2.20160714git%{shortcommit}%{?dist}
 Summary:        Implementation of KDE Connect protocol
 
 License:        GPLv2
@@ -52,6 +52,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/mconnect.desktop
 %{_datadir}/applications/*.desktop
 
 %changelog
+* Thu Jul 14 2016 Maciek Borzęcki <maciek.borzecki@gmail.com> - 0.2.1-2.20160714git2210f1f
+- Update to v0.2.1, commit 2210f1fd07c01b206d61404faa0abae01457cd58
+
 * Thu Jul 14 2016 Maciek Borzęcki <maciek.borzecki@gmail.com> - 0.2.1-1.20160714git23e1acf
 - Update to v0.2.1
 
